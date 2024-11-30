@@ -1,0 +1,75 @@
+/* General Reset */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #004466;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#home {
+    background-color: #e0f7fa;
+}
+
+#research, #methods {
+    background-color: #f0f4f8;
+}
+/* Profile Picture Styling */
+.profile-pic {
+    width: 180px; /* Adjusted width */
+    height: 180px; /* Adjusted height */
+    border-radius: 100%; /* Makes the image circular */
+    margin: 50px auto;
+    display: block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+#about {
+    background-color: #e8f5e9;
+}
+
+#contact {
+    background-color: #fff3e0;
+}
+
+footer {
+    background-color: #004466;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
